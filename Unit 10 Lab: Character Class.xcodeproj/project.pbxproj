@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1D59E09D2746C59000BC0920 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D59E09C2746C59000BC0920 /* main.cpp */; };
+		1D59E0A52746C6AB00BC0920 /* Pokemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D59E0A32746C6AB00BC0920 /* Pokemon.cpp */; };
+		1DB6E56627481D2B00EBCE19 /* Attributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E56427481D2B00EBCE19 /* Attributes.cpp */; };
+		1DB6E569274820A600EBCE19 /* Stats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E567274820A600EBCE19 /* Stats.cpp */; };
+		1DB6E56C2748479D00EBCE19 /* FireType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E56A2748479D00EBCE19 /* FireType.cpp */; };
+		1DB6E56F274847B600EBCE19 /* WaterType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E56D274847B600EBCE19 /* WaterType.cpp */; };
+		1DB6E572274847D700EBCE19 /* EathType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E570274847D700EBCE19 /* EathType.cpp */; };
+		1DB6E575274847FE00EBCE19 /* FlyingType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E573274847FE00EBCE19 /* FlyingType.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		1D59E0992746C59000BC0920 /* Unit 10 Lab: Character Class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 10 Lab: Character Class"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D59E09C2746C59000BC0920 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1D59E0A32746C6AB00BC0920 /* Pokemon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pokemon.cpp; sourceTree = "<group>"; };
+		1D59E0A42746C6AB00BC0920 /* Pokemon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pokemon.hpp; sourceTree = "<group>"; };
+		1DB6E56427481D2B00EBCE19 /* Attributes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Attributes.cpp; sourceTree = "<group>"; };
+		1DB6E56527481D2B00EBCE19 /* Attributes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Attributes.hpp; sourceTree = "<group>"; };
+		1DB6E567274820A600EBCE19 /* Stats.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stats.cpp; sourceTree = "<group>"; };
+		1DB6E568274820A600EBCE19 /* Stats.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stats.hpp; sourceTree = "<group>"; };
+		1DB6E56A2748479D00EBCE19 /* FireType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FireType.cpp; sourceTree = "<group>"; };
+		1DB6E56B2748479D00EBCE19 /* FireType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FireType.hpp; sourceTree = "<group>"; };
+		1DB6E56D274847B600EBCE19 /* WaterType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WaterType.cpp; sourceTree = "<group>"; };
+		1DB6E56E274847B600EBCE19 /* WaterType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WaterType.hpp; sourceTree = "<group>"; };
+		1DB6E570274847D700EBCE19 /* EathType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EathType.cpp; sourceTree = "<group>"; };
+		1DB6E571274847D700EBCE19 /* EathType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EathType.hpp; sourceTree = "<group>"; };
+		1DB6E573274847FE00EBCE19 /* FlyingType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FlyingType.cpp; sourceTree = "<group>"; };
+		1DB6E574274847FE00EBCE19 /* FlyingType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FlyingType.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				1D59E09C2746C59000BC0920 /* main.cpp */,
+				1D59E0A32746C6AB00BC0920 /* Pokemon.cpp */,
+				1D59E0A42746C6AB00BC0920 /* Pokemon.hpp */,
+				1DB6E567274820A600EBCE19 /* Stats.cpp */,
+				1DB6E568274820A600EBCE19 /* Stats.hpp */,
+				1DB6E56427481D2B00EBCE19 /* Attributes.cpp */,
+				1DB6E56527481D2B00EBCE19 /* Attributes.hpp */,
+				1DB6E56D274847B600EBCE19 /* WaterType.cpp */,
+				1DB6E56E274847B600EBCE19 /* WaterType.hpp */,
+				1DB6E56A2748479D00EBCE19 /* FireType.cpp */,
+				1DB6E56B2748479D00EBCE19 /* FireType.hpp */,
+				1DB6E570274847D700EBCE19 /* EathType.cpp */,
+				1DB6E571274847D700EBCE19 /* EathType.hpp */,
+				1DB6E573274847FE00EBCE19 /* FlyingType.cpp */,
+				1DB6E574274847FE00EBCE19 /* FlyingType.hpp */,
 			);
 			path = "Unit 10 Lab: Character Class";
 			sourceTree = "<group>";
@@ -119,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB6E56627481D2B00EBCE19 /* Attributes.cpp in Sources */,
+				1DB6E572274847D700EBCE19 /* EathType.cpp in Sources */,
+				1DB6E575274847FE00EBCE19 /* FlyingType.cpp in Sources */,
+				1DB6E56F274847B600EBCE19 /* WaterType.cpp in Sources */,
+				1DB6E56C2748479D00EBCE19 /* FireType.cpp in Sources */,
+				1DB6E569274820A600EBCE19 /* Stats.cpp in Sources */,
 				1D59E09D2746C59000BC0920 /* main.cpp in Sources */,
+				1D59E0A52746C6AB00BC0920 /* Pokemon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
